@@ -62,7 +62,7 @@ class LayoutComponents {
         try {
             // Check if we're in a subfolder
             const path = window.location.pathname;
-            const isInSubfolder = path.includes('/Order_Management/') || path.includes('/Coupon_Management/') || path.includes('/User_Management/') || path.includes('/Banner_Management/') || path.includes('/Admin_Management/') || path.includes('/Report_Sales/') || path.includes('/Contact_Management') || path.includes('/Admin_Management');
+            const isInSubfolder = path.includes('/Order_Management/') || path.includes('/Coupon_Management/') || path.includes('/User_Management/') || path.includes('/Banner_Management/') || path.includes('/Admin_Management/') || path.includes('/Report_Sales/') || path.includes('/Contact_Management') || path.includes('/Admin_Management') || path.includes('/ProductReview_Management');
             
             
             // Load sidebar with correct path
@@ -88,7 +88,7 @@ class LayoutComponents {
         try {
             // Check if we're in a subfolder
             const path = window.location.pathname;
-            const isInSubfolder = path.includes('/Order_Management/') || path.includes('/Coupon_Management/') || path.includes('/User_Management/') || path.includes('/Banner_Management') || path.includes('/Admin_Management/') || path.includes('/Report_Sales/') || path.includes('/Contact_Management') || path.includes('/Admin_Management');
+            const isInSubfolder = path.includes('/Order_Management/') || path.includes('/Coupon_Management/') || path.includes('/User_Management/') || path.includes('/Banner_Management') || path.includes('/Admin_Management/') || path.includes('/Report_Sales/') || path.includes('/Contact_Management') || path.includes('/Admin_Management') || path.includes('/ProductReview_Management');
             
             // Load modals with correct path
             const modalsPath = isInSubfolder ? '../modals.html' : 'modals.html';
